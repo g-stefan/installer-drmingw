@@ -1,0 +1,1 @@
+drmingw-0.9.2-win64.7z,https://github.com/jrfonseca/drmingw/releases
