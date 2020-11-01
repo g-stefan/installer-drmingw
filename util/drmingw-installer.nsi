@@ -13,7 +13,7 @@
 Name "DrMingw"
 
 ; Version
-!define DrMingwVersion "0.9.2"
+!define DrMingwVersion "$%PRODUCT_VERSION%"
 
 ; The file to write                     
 OutFile "installer\drmingw-${DrMingwVersion}-installer.exe"

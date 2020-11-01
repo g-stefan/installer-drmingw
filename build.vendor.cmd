@@ -3,7 +3,11 @@ rem Public domain
 rem http://unlicense.org/
 rem Created by Grigore Stefan <g_stefan@yahoo.com>
 
+echo -^> vendor drmingw
+
+call build.config.cmd
+
 if not exist vendor\ mkdir vendor
 
-set WEB_LINK=https://github.com/jrfonseca/drmingw/releases/download/0.9.2/drmingw-0.9.2-win64.7z
-if not exist vendor\drmingw-0.9.2-win64.7z curl --insecure --location %WEB_LINK% --output vendor\drmingw-0.9.2-win64.7z
+set WEB_LINK=https://github.com/jrfonseca/drmingw/releases/download/%PRODUCT_VERSION%/drmingw-%PRODUCT_VERSION%-win64.7z
+if not exist vendor\drmingw-%PRODUCT_VERSION%-win64.7z curl --insecure --location %WEB_LINK% --output vendor\drmingw-%PRODUCT_VERSION%-win64.7z
