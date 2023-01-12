@@ -1,0 +1,18 @@
+{
+	"solution": {
+		"name" : "installer-drmingw",
+		"type" : "xyo-cpp",
+		"projects": [
+			{
+				"name" : "installer-drmingw",
+				"SPDX-License-Identifier": "MIT",
+				"version" : "0.9.9",
+				"noVersion" : true
+			}
+		],
+		"hasGithub" : true,
+		"sourceLinks" : {
+			"drmingw-0.9.9-win64.7z" : "https://github.com/jrfonseca/drmingw/releases"
+		}
+	}
+}
