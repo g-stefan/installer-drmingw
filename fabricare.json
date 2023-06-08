@@ -10,7 +10,6 @@
 				"noVersion" : true
 			}
 		],
-		"hasGithub" : true,
 		"sourceLinks" : {
 			"drmingw-0.9.9-win64.7z" : "https://github.com/jrfonseca/drmingw/releases"
 		}
